@@ -1,3 +1,5 @@
+# Missionaries Cannibal problem
+
 # Aim
 Write the python program for Missionaries Cannibal problem
 # Program
@@ -91,5 +93,17 @@ Write the python program for Missionaries Cannibal problem
 		if(((lC==3)and (lM == 1))or((lC==3)and(lM==2))or((lC==2)and(lM==1))or((rC==3)and (rM == 1))or((rC==3)and(rM==2))or((rC==2)and(rM==1))): 
 			print("Cannibals eat missionaries:\nYou lost the game") 
 			break
-except EOFError as e: 
+    except EOFError as e: 
 	print("\nInvalid input please retry !!")
+# Output
+	Game Start
+Now the task is to move all of them to right side of the river
+rules:
+1. The boat can carry at most two people
+2. If cannibals num greater than missionaries then the cannibals would eat the missionaries
+3. The boat cannot cross the river by itself with no people on board
+
+M M M C C C |	 --- | 
+
+Left side -> right side river travel
+Enter number of Missionaries travel => 
