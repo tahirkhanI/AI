@@ -2,17 +2,18 @@
 Write the python program for Missionaries Cannibal problem
 # Program
 print("\n") 
-print("\tGame Start\nNow the task is to move all of them to right side of the river") 
-print("rules:\n1. The boat can carry at most two people\n2. If cannibals num greater than missionaries then the cannibals would eat the missionaries\n3. The boat cannot cross the river by itself with no people on board") 
-lM = 3		
-lC = 3		 
-rM=0		 
-rC=0		
-userM = 0	
-userC = 0	
-k = 0
-print("\nM M M C C C |	 --- | \n") 
-try: 
+    print("\tGame Start\nNow the task is to move all of them to right side of the river") 
+    print("rules:\n1. The boat can carry at most two people\n2. If cannibals num greater than missionaries then the cannibals would eat 
+    the missionaries\n3. The boat cannot cross the river by itself with no people on board") 
+    lM = 3		
+    lC = 3		 
+    rM=0		 
+    rC=0		
+    userM = 0	
+    userC = 0	
+    k = 0
+    print("\nM M M C C C |	 --- | \n") 
+    try: 
 	while(True): 
 		while(True): 
 			print("Left side -> right side river travel") 
